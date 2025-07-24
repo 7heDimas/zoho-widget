@@ -1,0 +1,16 @@
+{
+  "uk": {
+    "title": "Курс долара",
+    "nbuRateLabel": "Курс з НБУ:",
+    "dealRateLabel": "Курс в Угоді:",
+    "differenceLabel": "Різниця:",
+    "update_button": "Записати курс в Угоду"
+  },
+  "en": {
+    "title": "Dollar Exchange Rate",
+    "nbuRateLabel": "NBU Rate:",
+    "dealRateLabel": "Deal Rate:",
+    "differenceLabel": "Difference:",
+    "update_button": "Update Rate in Deal"
+  }
+}

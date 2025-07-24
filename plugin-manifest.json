@@ -1,0 +1,18 @@
+{
+  "service": "CRM",
+  "name": "CurrencyRateWidget",
+  "version": "1.0",
+  "description": "Віджет для відображення курсу НБУ",
+  "main": "app/widget.html",
+  "components": [
+    {
+      "name": "Currency Rate Checker",
+      "type": "widget",
+      "location": {
+        "module": "Deals",
+        "layout": "relatedlist"
+      },
+      "url": "app/widget.html"
+    }
+  ]
+}

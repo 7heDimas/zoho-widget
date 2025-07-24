@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+h2 {
+    color: #2770b2;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.nbu-rate,
+.deal-rate,
+.difference {
+    font-weight: bold;
+    color: #000;
+    margin-left: 8px;
+}
+
+.difference {
+    color: #fb0404;
+}
+
+.update-btn {
+    margin-top: 8px;
+    padding: 10px 18px;
+    font-size: 16px;
+    background-color: #2770b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: none;
+}
+
+.update-btn:hover {
+    background-color: #1fb840;
+}
+
+.lang-switch {
+    margin-bottom: 20px;
+}
+
+.lang-btn {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.lang-btn:hover {
+    background-color: #eee;
+    transition: background-color 1s ease;
+}
+
+.lang-btn.active {
+    background-color: #04ff00;
+    color: #070000;
+    border-color: #000407;
+}
